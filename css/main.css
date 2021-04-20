@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.Menu-principal {
+    width: 100%;
+    background-color: darkorange;
+    height: 99px;
+    display: flex;
+}
+/*.content é para usar essa mesma configuração de "main" em outra parte do site*/
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 1px;
+    width: 70%;
+}
+.Redes-sociais ul li {
+    margin-left: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+ul {
+    padding: 0px!important;
+}
+.Redes-sociais {
+    width: 20%;
+    float: right;
+    margin: 10px;
+    padding: 1px;
+    
+}
+.cabecalho2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+.menu-secundario {
+    width: 80px;
+    border-bottom: 3px solid #8b8b8b;
+    display: flex;
+}
+.menu ul li {
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    height: auto;
+}
+/*Colocar uma linha debaixo do menu*/
+.menu ul li:hover {
+    border-bottom: 2px solid #ff8c00;
+}
+/*Colocar cor nas letras*/
+.menu ul li a:hover {
+    color: darkorange;
+}
+.menu ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.Busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+/*Informação que vai dentro do quadrado busca*/
+.Busca input {
+    background-image: url('../Imagem/lupa2.png' ) ;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 30px;
+    margin-top: 1px;
+    padding: 1px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+.coluna100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../Imagem/seta\ direita1.png');
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    right: 2%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../Imagem/seta\ esquerda1.png');
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    left: 2%;
+}
+/*Bolinha do slide show*/
+.slick-list {
+    width: 100% !important;
+}
+.slick-inicialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0;
+    border: 5px solid #ff8c00;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 92%;
+
+}
+li.slick-active button {
+    background: #000;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+/*Dividindo o footer em 4 plartes*/
+.coluna4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.footer h3 {
+    text-align: left;
+
+}
+.footer {
+    background-image: url("../Imagem/footer.png");
+    color: white;
+    text-align: left;
+    
+}
+.footer2 {
+    background-image: url("../Imagem/footer2.png");
+    color: white;
+    text-align: ceter;
+    
+}
+.footer2 p {
+    padding: 20px;
+    
+}
+.footer p {
+    width: 80%;
+    text-align: left;
+}
