@@ -1,6 +1,9 @@
 body, html{
 	font-family: 'Roboto', sans-serif;
+
 }
+
+
 
 header{
 	width: 100%;
@@ -21,7 +24,6 @@ header .nav-link{
 }
 
 
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -37,8 +39,8 @@ header .nav-link{
 }
 
 .caixa{
-	padding: 60px 0;
-	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 15px;
+	border-bottom: 0px solid #e5e5e5;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -67,7 +69,7 @@ header .nav-link{
 	color: white;
 }
 
-.servicos a.destque .img-container{
+.servicos a.destaque .img-container{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -78,6 +80,28 @@ header .nav-link{
 	max-height: 160px;
 }
 
+/*estrelas*/
+article .produtos-stars{
+	color: #EEC900; 
+	font-size:13px;
+
+}
+
+/*desconto*/
+.preco1 s{
+	font-size: 14px;
+	color:red;
+}
+
+/*parcelas*/
+.preco2 h6{
+	font-size: 10px;
+
+}
+
+strong{
+	font-size: 25px;
+}
 
 section p{
 	text-align: justify;
@@ -91,29 +115,7 @@ section a:hover{
 	color: #cacaca;
 }
 
-.contato .email{
-	border-radius: 5px;
-	background-color: black;
-	color: #ffff;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 120px 30px; 
-}
-
-.contato .email form{
-	width: 60px;
-	display: flex;
-}
-
-.contato .email .form-control{
-	background:none;
-	color: #ffff;
-}
-
-
+/*rodapé*/
 footer{
 	background: #cca683;
 	padding: 50px 0px 20px 0px;
@@ -121,6 +123,7 @@ footer{
 
 }
 
+/*rodapé , texto h4 */
 footer h4{
 	color: white;
 	font-size: 0.8em;
